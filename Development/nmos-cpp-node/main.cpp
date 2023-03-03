@@ -138,7 +138,7 @@ int main(int argc, char* argv[])
 
         // Open the API ports and start up node operation (including the DNS-SD advertisements)
 
-        slog::log<slog::severities::info>(gate, SLOG_FLF) << "Preparing for connections";
+        slog::log<slog::severities::info>(gate, SLOG_FLF) << "NT Preparing for connections";
 
         nmos::server_guard node_server_guard(node_server);
 
