@@ -218,16 +218,19 @@ namespace nmos
             const web::json::field_as_string_or label{ U("label"), U("") };
 
             // manufacturer [node]: used in device and node labeling tags
-            const web::json::field_as_string_or description{ U("manufacturer"), U("AMWA") };
+            const web::json::field_as_string_or manufacturer{ U("manufacturer"), U("AMWA") };
 
             // product [node]: used in device and node labeling tags
-            const web::json::field_as_string_or description{ U("product"), U("NMOS Test Product") };
+            const web::json::field_as_string_or product{ U("product"), U("NMOS Test Product") };
 
             // application [node]: used in device and node labeling tags
-            const web::json::field_as_string_or description{ U("application"), U("NMOS Mock Node") };
+            const web::json::field_as_string_or application{ U("application"), U("NMOS-CPP Mock Node") };
+
+            // location [node]: used in device and node labeling tags
+            const web::json::field_as_string_or location{ U("location"), U("") };
 
             // instance [node]: used in device and node labeling tags
-            const web::json::field_as_string_or description{ U("instance"), U("001") };
+            const web::json::field_as_string_or instance{ U("instance"), U("001") };
 
             // registration_available [registry]: used to flag the Registration API as temporarily unavailable
             const web::json::field_as_bool_or registration_available{ U("registration_available"), true };
