@@ -217,8 +217,17 @@ namespace nmos
             // label [registry, node]: used in resource label field
             const web::json::field_as_string_or label{ U("label"), U("") };
 
-            // description [registry, node]: used in resource description field
-            const web::json::field_as_string_or description{ U("description"), U("") };
+            // manufacturer [node]: used in device and node labeling tags
+            const web::json::field_as_string_or description{ U("manufacturer"), U("AMWA") };
+
+            // product [node]: used in device and node labeling tags
+            const web::json::field_as_string_or description{ U("product"), U("NMOS Test Product") };
+
+            // application [node]: used in device and node labeling tags
+            const web::json::field_as_string_or description{ U("application"), U("NMOS Mock Node") };
+
+            // instance [node]: used in device and node labeling tags
+            const web::json::field_as_string_or description{ U("instance"), U("001") };
 
             // registration_available [registry]: used to flag the Registration API as temporarily unavailable
             const web::json::field_as_bool_or registration_available{ U("registration_available"), true };
