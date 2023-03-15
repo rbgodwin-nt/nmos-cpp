@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 
     try
     {
-        slog::log<slog::severities::info>(gate, SLOG_FLF) << "Starting nmos-cpp node";
+        slog::log<slog::severities::info>(gate, SLOG_FLF) << "Starting rbgodwin-nt:nmos-cpp node";
 
         // Settings can be passed on the command-line, directly or in a configuration file, and a few may be changed dynamically by PATCH to /settings/all on the Settings API
         //
